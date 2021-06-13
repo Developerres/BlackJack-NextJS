@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  min-height: 6rem;
+
+  @include respond(phone) {
+    margin: 1rem;
+    min-height: 5.6rem;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "blackjackes6",
+  "version": "1.0.0",
+  "description": "Blackjack ES6 Game",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developerres/BlackJack-ES6.git"
+  },
+  "author": "Zaitsev Oleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developerres/BlackJack-ES6/issues"
+  },
+  "homepage": "https://github.com/Developerres/BlackJack-ES6#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.2342",
+    "@parcel/transformer-sass": "^2.0.0-nightly.720",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "core-js": "^3.11.1",
+    "images": "^3.2.3",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.12"
+  }
+}

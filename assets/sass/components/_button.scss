@@ -1,0 +1,28 @@
+.btn {
+  background-color: $dark-green;
+  border-radius: 3rem;
+  border: 1px solid $color-secondary;
+  display: inline-block;
+  cursor: pointer;
+  color: $color-secondary;
+  font-size: $default-font-size;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba($color-primary, 0.25);
+  margin: 0.5rem;
+  transition: 0.3s ease-in-out;
+
+  @include respond(phone) {
+    border-radius: 1.1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  &:hover {
+    background-color: $light-green;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

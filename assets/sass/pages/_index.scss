@@ -1,0 +1,135 @@
+.coin {
+  margin-top: -0.5rem;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  width: 7.6rem;
+  touch-action: manipulation;
+}
+
+.coin:hover {
+  transform: rotate(15deg);
+}
+
+.cards {
+  height: 20rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include respond(phone) {
+    height: 12.6rem;
+  }
+
+  @include respond(phone-land) {
+    height: 12.6rem;
+  }
+}
+.cards-player,
+.cards-dealer {
+  position: relative;
+  min-width: 24.5rem;
+
+  @include respond(phone) {
+    min-width: 16rem;
+  }
+}
+
+.cards-player img,
+.cards-dealer img {
+  width: 11rem;
+  position: absolute;
+
+  @include respond(phone) {
+    width: 7.5rem;
+  }
+
+  @include respond(phone-land) {
+    width: 7.5rem;
+  }
+}
+
+.card-0 {
+  transform: rotate(-4deg);
+  z-index: 0;
+  left: 3.5rem;
+
+  @include respond(phone-land) {
+    left: 6.5rem;
+  }
+}
+
+.card-1 {
+  transform: rotate(-8deg);
+  left: 5rem;
+  z-index: 1;
+
+  @include respond(phone-land) {
+    left: 7.8rem;
+  }
+}
+
+.card-2 {
+  transform: rotate(-4deg);
+  left: 6rem;
+  z-index: 2;
+
+  @include respond(phone-land) {
+    left: 8.5rem;
+  }
+}
+
+.card-3 {
+  transform: rotate(0deg);
+  left: 7rem;
+  z-index: 3;
+
+  @include respond(phone-land) {
+    left: 9.5rem;
+  }
+}
+
+.card-4 {
+  transform: rotate(4deg);
+  left: 8rem;
+  z-index: 4;
+
+  @include respond(phone-land) {
+    left: 10.5rem;
+  }
+}
+
+.card-5 {
+  transform: rotate(8deg);
+  left: 9rem;
+  z-index: 5;
+
+  @include respond(phone-land) {
+    left: 11.5rem;
+  }
+}
+
+.card-6 {
+  transform: rotate(12deg);
+  left: 10rem;
+  z-index: 6;
+
+  @include respond(phone-land) {
+    left: 12.5rem;
+  }
+}
+
+.card-7 {
+  transform: rotate(16deg);
+  left: 11rem;
+  z-index: 7;
+  @include respond(phone-land) {
+    left: 13.5rem;
+  }
+}
+
+.card-back {
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}

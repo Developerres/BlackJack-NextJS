@@ -1,4 +1,4 @@
-# BlackJack-NextJS
+# BlackJack-ES6
 
 Black Jack on VanillaJS
 

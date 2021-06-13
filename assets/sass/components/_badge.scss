@@ -1,0 +1,47 @@
+.badge {
+  background-color: $color-secondary;
+  font-size: $default-font-size;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+}
+
+.coin__stack {
+  width: 32rem;
+  height: 6.6rem;
+  background: $color-secondary;
+  box-shadow: 0 1rem 1rem rgba($color-primary, 0.25),
+    inset 0 1rem 1rem rgba($color-primary, 0.25);
+  border-radius: 4rem;
+  text-align: center;
+  touch-action: manipulation;
+}
+
+.playfield {
+  box-shadow: 0 1.5rem 4rem rgba($color-primary, 0.2);
+  border-radius: 1rem;
+}
+
+.roundtitle {
+  display: flex;
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba($dark-green, 0.8);
+  align-items: center;
+  justify-content: center;
+  min-height: 19rem;
+
+  @include respond(phone) {
+    font-size: 3rem;
+    min-height: 11.4rem;
+  }
+
+  @include respond(phone-land) {
+    font-size: 3rem;
+    min-height: 11.4rem;
+  }
+}
+
+.error {
+  color: $error;
+}
